@@ -39,25 +39,27 @@ a
 }
 #avatar
 {
-	height: 250px;
-	width: 250px;
+	height: 350px;
+	width: 350px;
 	display: block;
-	position: absolute;
+	position: fixed;
+	margin-top: 25px;
 	margin-left: 20px;
 	border-radius: 50%;
 }
 nav
 {
 	position: absolute;
-	left: 840px;
+	left: 800px;
 	top: 230px;
 	transform: rotate(-11deg);
 }
 h1{
-    display: inline-block;
-    font-size: 44px;
+	position: fixed;
+    display: inline;
+    font-size: 55px;
     margin-top: 30px;
-    margin-left: 500px;
+    margin-left: 580px;
 	color: #fffefc;
 	text-shadow: 2px 2px 2px #6a533c;
     animation-duration: 0s;
