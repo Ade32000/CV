@@ -1,5 +1,6 @@
 body
 {
+	font-family: 'Gloria Hallelujah', cursive;
 	margin: 0px;
 	padding: 0px;
 }
@@ -8,7 +9,7 @@ header
 	display: block;
 	margin: 0px;
 	padding: 0px;
-	background-image: url('fond.jpg');
+	background-image: url('fond1.jpg');
 	background-size: cover;
 	background-color: grey;
 	height: 700px;
@@ -17,25 +18,59 @@ li
 {
 	list-style-type: none;
 	margin: 20px;
-	cursor: context-menu;
+	cursor: pointer;
 	float: right bottom;
 }
 #remonter
 {
-position: fixed;
-bottom : 10px;
-right: -100px;
-opacity: 0.5;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 50px;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 a
 {
 	text-decoration : none;
+	color: black;
+	font-size: 30px;
+	/*font-family: "Arial";*/
+
 }
 #avatar
 {
-	height: 200px;
-	width: 200px;
+	height: 250px;
+	width: 250px;
 	display: block;
-    margin-left: auto;
-    margin-right: auto
+	position: absolute;
+	margin-left: 20px;
+	border-radius: 50%;
+}
+nav
+{
+	position: absolute;
+	left: 840px;
+	top: 230px;
+	transform: rotate(-11deg);
+}
+h1{
+    display: inline-block;
+    font-size: 44px;
+    margin-top: 30px;
+    margin-left: 500px;
+	color: #fffefc;
+	text-shadow: 2px 2px 2px #6a533c;
+    animation-duration: 0s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+	from {
+	margin-left: 70%;
+	width: 300%; 
+}
+to {
+	margin-left: 30%;
+	width: 100%;
 }

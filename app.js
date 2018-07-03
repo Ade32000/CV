@@ -11,3 +11,9 @@ $('#remonter').css('right','10px'); // Replace à 10pixels de la droite l'image
 $('#remonter').removeAttr( 'style' ); // Enlève les attributs CSS affectés par javascript
 }
 });
+
+$('#about').click(function()
+{
+	console.log('hey');
+	$('#apropos').focus();
+});
